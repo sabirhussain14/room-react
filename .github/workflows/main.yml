@@ -30,4 +30,4 @@ jobs:
     - name: surge installation
       run: npm install -g surge
     - name: deploying on surge
-      run: surge ./build   room-react.surge.sh --token ${{secrets.ROOM_REACT1}}  
+      run: surge ./ build   room-react.surge.sh --token ${{secrets.ROOM_REACT1}}  
